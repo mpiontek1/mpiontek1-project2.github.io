@@ -185,9 +185,10 @@ div.post-header {
 	margin-bottom: 30px;
 }
 
-img.post-header {
+.post img {
 	width: 586px;
 	height: 300px;
+	margin-bottom: 40px;
 }
 
 
