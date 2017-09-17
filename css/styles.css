@@ -91,7 +91,7 @@ nav a:link {
 }
 
 nav a:visited {
-	color: #a58b75;
+	color: #fff;
 }
 
 nav a:hover {
@@ -179,7 +179,7 @@ div.post-header {
 }
 
 .post h1{
-	margin-bottom: 25px;
+	margin: 25px 0;
 }
 
 .post h2 {
@@ -192,8 +192,9 @@ div.post-header {
 
 .post img {
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 }
+
 
 p span.underline  {
 	text-decoration: underline;
