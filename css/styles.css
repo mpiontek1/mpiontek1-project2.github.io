@@ -13,8 +13,13 @@ a:hover {
     text-decoration: none;
 }
 
+a:focus {
+    color: #a58b75;
+    text-decoration: none;
+}
+
 a:active {
-    color: #0c4c8a;
+	color: #a58b75; 
 }
 
 
@@ -49,7 +54,6 @@ header {
 	left: 0;
 	z-index: 999;
 	font-size: 12px;
-	border-bottom: 4px solid #97d5e2;
 	background: #5486a1;
 	color: #fff;
 	letter-spacing: 1px;
@@ -62,6 +66,57 @@ header p {
 header a:link {
 	color: #97d5e2;
 }
+
+
+/* -- navigation -- */
+
+nav {
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: #97d5e2;
+	letter-spacing: 1px;
+	padding: 5px 0;
+	text-decoration: none;
+}
+
+nav a {
+	font-weight: 400;
+}
+
+nav a:link {
+	color: #fff;
+}
+
+nav a:visited {
+	color: #0c4c8a;
+}
+
+nav a:hover {
+	color: #d1af93;
+}
+
+nav a:focus {
+    color: #a58b75;
+    text-decoration: none;
+}
+
+
+nav ul {
+  margin: 0 -20px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.mobile-nav{
+	font-size: 30px;
+}
+
 
 /*-- Article --*/
 
@@ -111,7 +166,28 @@ div .date {
 
 img {
 	width: 150px;
-	padding-bottom: 20px;
+	padding: 10px 0 20px 0;
+}
+
+
+/*-- Post Styles --*/
+
+.post h1{
+	margin-bottom: 25px;
+}
+
+.post h2 {
+	color: #a58b75;
+}
+
+div.post-header {
+	border-bottom: 1px solid #a58b75; 
+	margin-bottom: 30px;
+}
+
+img.post-header {
+	width: 586px;
+	height: 300px;
 }
 
 
