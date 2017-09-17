@@ -172,23 +172,35 @@ img {
 
 /*-- Post Styles --*/
 
-.post h1{
-	margin-bottom: 25px;
-}
-
-.post h2 {
-	color: #a58b75;
-}
 
 div.post-header {
 	border-bottom: 1px solid #a58b75; 
 	margin-bottom: 30px;
 }
 
+.post h1{
+	margin-bottom: 25px;
+}
+
+.post h2 {
+	color: #5486a1;
+}
+
+.post h3 {
+	color: #a58b75;
+}
+
 .post img {
-	width: 586px;
-	height: 300px;
+	width: 100%;
 	margin-bottom: 40px;
+}
+
+p span.underline  {
+	text-decoration: underline;
+	text-decoration-color: #a58b75;
+	text-decoration-style: double;
+	font-style: italic;
+	color: #a58b75;
 }
 
 
